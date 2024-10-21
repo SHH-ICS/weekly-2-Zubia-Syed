@@ -17,15 +17,15 @@
 
 if ($diameter <= 0) {
 
-  echo "reenter diameter number must be greater than 0";
+echo "Reenter diameter: number must be greater than 0.";
+} else {
 }
-else:
 function calc($d) {
 
-    $r=$d/2
+    $r=$d/2;
     echo($r);
-    $area= math.pi*$r**2
-    $circumference = 2 * math.pi * $r
+    $area= pi()*$r**2;
+    $circumference = 2 * pi() * $r;
 
 
     echo($area);
@@ -41,4 +41,4 @@ function calc($d) {
     
   </body>
   
-</html>
+  </html>

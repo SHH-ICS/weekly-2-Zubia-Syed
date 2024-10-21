@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
-  <head>
-    <title></title>
+<html>
+<head>
 
     <!-- MDL Inclusions -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -9,18 +9,18 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
-    <div id="hello-world"></div>
     <title>Circumference and area </title>
 
   </head>
-
   <body>
+  <div id="hello-world"></div>
+  
     <!-- Always shows a header, even in smaller screens. -->
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <!-- Circumference and area -->
-          <span class="mdl-layout-title">Title</span>
+          <span class="mdl-layout-title">Circumference and Area</span>
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation. We hide it in small screens. -->
@@ -46,7 +46,6 @@
       </main>
     </div>
     <!-- Textfield with Floating Label -->
-  </div>
 
   <br />
   <br />
@@ -58,7 +57,7 @@
 
     <form name="myForm" action="handler.php" method="POST">
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="sample3" name="diameter>
+        <input class="mdl-textfield__input" type="number" id="sample3" name="diameter" required>
         <label class="mdl-textfield__label" for="sample3">Diameter...</label>
       </div>
       <input type="submit" name="Submit" value="Submit">
