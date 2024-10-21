@@ -10,12 +10,33 @@
   <body>
     
     <?php
-    $myVariable = "";
-    if ( isset( $_POST['myVariable'] ) ){
-      $myVariable = $_POST['myVariable'];
+    $myVariable = "diameter";
+    if ( isset( $_POST['diameter'] ) ){
+      $diameter = $_POST['diameter'];
     }
+
+if ($diameter <= 0) {
+
+  echo "reenter diameter number must be greater than 0";
+}
+else:
+function calc($d) {
+
+    $r=$d/2
+    echo($r);
+    $area= math.pi*$r**2
+    $circumference = 2 * math.pi * $r
+
+
+    echo($area);
+    echo($circumference);
+}
+
+    calc($diameter);
+
     echo "<h1>My Program</h1>\n";
-    echo "<p>My Variable is = ".$myVariable."</p>\n";
+    echo "<p>C= = ".$circumference."</p>\n";
+    echo "<p>a= = " . $area. "</p>\n";
     ?>
     
   </body>
