@@ -35,8 +35,8 @@ function calc($d) {
     calc($diameter);
 
     echo "<h1>My Program</h1>\n";
-    echo "<p>C= = ".$circumference."</p>\n";
-    echo "<p>a= = " . $area. "</p>\n";
+    echo "<p>$circumference= = ".$circumference."</p>\n";
+    echo "<p>$area= = " . $area. "</p>\n";
     ?>
     
   </body>
